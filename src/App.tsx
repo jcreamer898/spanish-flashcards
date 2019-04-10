@@ -22,8 +22,14 @@ const CardWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 500px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
+
+  @media (min-width: 420px) {
+    width: 500px;
+    height: 300px;
+  }
+
   border-radius: 5px;
   color: rgba(0, 0, 0, 0.7);
   background: white;
